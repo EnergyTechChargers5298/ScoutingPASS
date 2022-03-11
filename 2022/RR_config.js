@@ -72,7 +72,7 @@ var config_data = `
       },
       "Upper Cargo Scored": {
         "code":"au",
-        "title": "Uppoer Cargo Scored",
+        "title": "Upper Cargo Scored",
         "type":"counter"
       },
       "Lower Cargo Scored": {
