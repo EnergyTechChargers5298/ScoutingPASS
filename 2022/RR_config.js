@@ -84,6 +84,17 @@ var config_data = `
         "code":"ac",
         "title": "Picked up more cargo?",
         "type":"bool"
+      },
+      "Human Player Shot": {
+        "code":"hs",
+        "title": "Did Human Player shoot ball?",
+        "type":"radio",
+        "choices":{
+          "yy":"Yes, shot made<br>",
+          "yn":"Yes, shot missed<br>",
+          "no":"Human player gave up ball"
+        },
+        "defaultValue":"no"
       }
     },
     "teleop": {
