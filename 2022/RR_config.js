@@ -197,15 +197,12 @@ var config_data = `
         },
         "defaultValue":"x"
       },
-      "Died": {
-        "code":"d",
-        "title": "Died",
-        "type":"bool"
-      },
-      "Tipped": {
-        "code":"to",
-        "title": "Tipped Over",
-        "type":"bool"
+      "Mechanical Problems?": {
+        "code":"mp",
+        "title": "Mech Problems",
+        "type":"text",
+        "size":15,
+        "maxSize":100
       },
       "Card Foul": {
         "code":"cf",
