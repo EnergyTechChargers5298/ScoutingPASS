@@ -110,7 +110,7 @@ var config_data = `
       },
       "Upper Cargo Missed": {
         "code":"tm",
-        "title": "Uppoer Cargo Missed",
+        "title": "Upper Cargo Missed",
         "type":"counter"
       },
       "Lower Cargo Missed": {
@@ -135,11 +135,15 @@ var config_data = `
         },
         "defaultValue":"x"
       },
-      "Shooting Spot": {
+      "Range": {
         "code":"ss",
         "title": "Shooting Spot",
-        "type":"field_image",
-        "filename":"2022/New_field.png"
+        "type":"radio",
+        "choices":{
+          "S":"Short",
+          "M":"Middle",
+          "L":"Long"
+        }
       }
     },
     "endgame": {
@@ -157,10 +161,10 @@ var config_data = `
         },
         "defaultValue":"x"
       },
-      "Started Climb before Endgame": {
+      "Time to climb": {
         "code":"be",
-        "title": "Started climb before EndGame",
-        "type":"bool"
+        "title": "How long did it take to climb",
+        "type":"number"
       },
       "Num of Robots Climbed": {
         "code":"cn",
