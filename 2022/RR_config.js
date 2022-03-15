@@ -103,14 +103,14 @@ var config_data = `
         "title": "Upper Cargo Scored",
         "type":"counter"
       },
-      "Lower Cargo Scored": {
-        "code":"tl",
-        "title": "Lower Cargo Scored",
-        "type":"counter"
-      },
       "Upper Cargo Missed": {
         "code":"tm",
         "title": "Upper Cargo Missed",
+        "type":"counter"
+      },
+      "Lower Cargo Scored": {
+        "code":"tl",
+        "title": "Lower Cargo Scored",
         "type":"counter"
       },
       "Lower Cargo Missed": {
