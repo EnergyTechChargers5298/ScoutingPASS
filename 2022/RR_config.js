@@ -61,7 +61,7 @@ var config_data = `
         "code":"as",
         "title": "Auto Start Position",
         "type":"radio",
-        "choicers":{
+        "choices":{
           "r1":"Red 1",
           "r2":"Red 2",
           "r3":"Red 3",
