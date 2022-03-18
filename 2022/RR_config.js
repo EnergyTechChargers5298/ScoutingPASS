@@ -68,7 +68,8 @@ var config_data = `
           "b1":"Blue 1",
           "b2":"Blue 2",
           "b3":"Blue 3"
-        }
+        },
+        "required":"true"
       }
     },
     "auton": {
