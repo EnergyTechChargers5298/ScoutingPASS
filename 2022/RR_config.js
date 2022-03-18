@@ -60,16 +60,8 @@ var config_data = `
       "Auto Start Position": {
         "code":"as",
         "title": "Auto Start Position",
-        "type":"radio",
-        "choices":{
-          "r1":"Red 1",
-          "r2":"Red 2",
-          "r3":"Red 3",
-          "b1":"Blue 1",
-          "b2":"Blue 2",
-          "b3":"Blue 3"
-        },
-        "required":"true"
+        "type":"field_image",
+        "filename":"2022/New_field.png"
       }
     },
     "auton": {
