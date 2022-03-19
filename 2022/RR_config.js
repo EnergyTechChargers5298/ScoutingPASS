@@ -58,9 +58,19 @@ var config_data = `
         "max":99999
       },
       "Auto Start Position": {
-      
-      
-      
+        "code":"asp",
+        "title": "Autonomous Start Position",
+        "type": "radio",
+        "choices":{
+
+          "a": "Position A",
+          "b": "Position B",
+          "c": "Position C",
+          "d": "Position D",
+          "e": "Position E",
+          "f": "Position F",
+        },
+      "defaultValue":"no"
       }
     },
     "auton": {
