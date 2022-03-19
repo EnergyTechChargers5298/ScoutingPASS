@@ -69,7 +69,8 @@ var config_data = `
           "d": "Position D",
           "e": "Position E",
           "f": "Position F",
-        }
+        },
+        "required":"true"
         //"filename":"Tarmacs.png",
         //"defaultValue":"no"
       
