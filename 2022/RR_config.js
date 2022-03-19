@@ -61,7 +61,7 @@ var config_data =
         "code":"as",
         "title": "Autonomous Start Position",
         "type":"field image",
-        "filename":"New_field.png"
+        "filename":"2022/field_image.png"
       }
     },
     "auton": {
