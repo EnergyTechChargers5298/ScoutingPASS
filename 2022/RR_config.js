@@ -76,7 +76,7 @@ var config_data = `
           "e": "Position E<br>",
           "f": "Position F"
         },
-        "required":"true"
+        "required":"true" 
 
       }
     },
