@@ -61,7 +61,7 @@ var config_data = `
         "code":"as",
         "title": "Auto Start Position",
         "type":"field_image",
-        "filename":"2022/New_field.png"
+        "filename":"2022/Tarmacs.png"
       },
       
       "Auto Start Choices":{
@@ -74,7 +74,7 @@ var config_data = `
           "c": "Position C<br>",
           "d": "Position D<br>",
           "e": "Position E<br>",
-          "f": "Position F<br>e",
+          "f": "Position F<br>",
           "g": "Position G"
         },
         "defaultValue":"g"
