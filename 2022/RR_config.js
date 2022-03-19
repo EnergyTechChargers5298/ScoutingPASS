@@ -1,5 +1,5 @@
-var config_data =
-    `{
+var config_data = `
+{
   "title":"Scouting PASS 2022",
   "page_title":"Rapid React",
   "elements":{
@@ -59,9 +59,9 @@ var config_data =
       },
       "Auto Start Position": {
         "code":"as",
-        "title": "Autonomous Start Position",
-        "type":"field image",
-        "filename":"2022/field_image.png"
+        "title": "Auto Start Position",
+        "type":"field_image",
+        "filename":"2022/New_field.png"
       }
     },
     "auton": {
@@ -105,7 +105,7 @@ var config_data =
           "no":"Human player gave up ball"
         },
         "defaultValue":"no"
-        }
+      }
     },
     "teleop": {
       "Upper Cargo Scored": {
@@ -147,12 +147,12 @@ var config_data =
       },
       "Range": {
         "code":"ss",
-        "title": "Preferred Shooting Spot",
+        "title": "Shooting Spot",
         "type":"radio",
         "choices":{
-          "S":"Short - hugging the fender",
-          "M":"Middle - inside edge of tarmac",
-          "L":"Long - outside of tarmac"
+          "S":"Short",
+          "M":"Middle",
+          "L":"Long"
         }
       }
     },
@@ -171,9 +171,9 @@ var config_data =
         },
         "defaultValue":"x"
       },
-      "Time climb started": {
+      "Time to climb": {
         "code":"be",
-        "title": "How much time remaining did they have when they climbed?",
+        "title": "How long did it take to climb",
         "type":"number"
       },
       "Num of Robots Climbed": {
