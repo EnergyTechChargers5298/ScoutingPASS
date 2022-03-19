@@ -16,7 +16,7 @@ var config_data = `
         "type":"event",
         "defaultValue":"NYLI2",
         "required":"true",
-        "disabled":"true"
+        "disabled":"false"
       },
       "Match Level":{
         "code":"l",
@@ -61,8 +61,7 @@ var config_data = `
         "code":"as",
         "title": "Auto Start Position",
         "type":"field_image",
-        "filename":"2022/Tarmacs.png",
-        "required":"false"
+        "filename":"2022/Tarmacs.png"
       },
       
       "Auto Start Choices":{
