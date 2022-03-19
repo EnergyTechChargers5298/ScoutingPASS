@@ -1,5 +1,5 @@
-var config_data = `
-{
+var config_data =
+    `{
   "title":"Scouting PASS 2022",
   "page_title":"Rapid React",
   "elements":{
@@ -58,18 +58,23 @@ var config_data = `
         "max":99999
       },
       "Auto Start Position": {
+        "code":"as",
         "title": "Autonomous Start Position",
-        "type": "radio",
-        "choices":{
-          "a": "Position A",
-          "b": "Position B",
-          "c": "Position C",
-          "d": "Position D",
-          "e": "Position E",
-          "f": "Position F",
-          "g": "Position G"
-        },
-        "defaultValue":"g"
+        "type":"field image",
+        "filename":"2022/New_field.png"
+        
+        //"type": "radio",
+        //"choices":{
+        //   "a": "Position A",
+        //   "b": "Position B",
+        //   "c": "Position C",
+        //   "d": "Position D",
+        //   "e": "Position E",
+        //   "f": "Position F",
+        //   "g": "Position G"
+        // },
+        // //this is a comment
+        // "defaultValue":"g"
       }
     },
     "auton": {
