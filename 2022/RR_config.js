@@ -56,23 +56,6 @@ var config_data = `
         "type":"team",
         "min":1,
         "max":99999
-      },
-      "Auto Start Position": {
-        "code":"as",
-        "title": "Autonomous Start Position",
-        "type": "radio",
-        "choices":{
-          "a": "Position A",
-          "b": "Position B",
-          "c": "Position C",
-          "d": "Position D",
-          "e": "Position E",
-          "f": "Position F"
-        },
-        "required":"true"
-        //"filename":"Tarmacs.png",
-        //"defaultValue":"g"
-      
       }
     },
     "auton": {
@@ -116,6 +99,23 @@ var config_data = `
           "no":"Human player gave up ball"
         },
         "defaultValue":"no"
+        },
+      "Auto Start Position": {
+        "code":"as",
+        "title": "Autonomous Start Position",
+        "type": "radio",
+        "choices":{
+          "a": "Position A",
+          "b": "Position B",
+          "c": "Position C",
+          "d": "Position D",
+          "e": "Position E",
+          "f": "Position F"
+        },
+        "required":"true"
+        //"filename":"Tarmacs.png",
+        //"defaultValue":"g"
+      
       }
     },
     "teleop": {
