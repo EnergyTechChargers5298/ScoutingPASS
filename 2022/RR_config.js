@@ -62,17 +62,16 @@ var config_data = `
         "title": "Autonomous Start Position",
         "type": "radio",
         "choices":{
-
           "a": "Position A",
           "b": "Position B",
           "c": "Position C",
           "d": "Position D",
           "e": "Position E",
-          "f": "Position F",
+          "f": "Position F"
         },
         "required":"true"
         //"filename":"Tarmacs.png",
-        //"defaultValue":"no"
+        //"defaultValue":"g"
       
       }
     },
@@ -159,12 +158,12 @@ var config_data = `
       },
       "Range": {
         "code":"ss",
-        "title": "Shooting Spot",
+        "title": "Preferred Shooting Spot",
         "type":"radio",
         "choices":{
-          "S":"Short",
-          "M":"Middle",
-          "L":"Long"
+          "S":"Short - hugging the fender",
+          "M":"Middle - inside edge of tarmac",
+          "L":"Long - outside of tarmac"
         }
       }
     },
@@ -183,9 +182,9 @@ var config_data = `
         },
         "defaultValue":"x"
       },
-      "Time to climb": {
+      "Time climb started": {
         "code":"be",
-        "title": "How long did it take to climb",
+        "title": "How much time remaining did they have when they climbed?",
         "type":"number"
       },
       "Num of Robots Climbed": {
