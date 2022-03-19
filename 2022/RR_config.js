@@ -99,8 +99,9 @@ var config_data = `
           "no":"Human player gave up ball"
         },
         "defaultValue":"no"
-        },
-      "Auto Start Position": {
+        }
+      /*
+        "Auto Start Position": {
         "code":"as",
         "title": "Autonomous Start Position",
         "type": "radio",
@@ -117,6 +118,7 @@ var config_data = `
         //"defaultValue":"g"
       
       }
+      */
     },
     "teleop": {
       "Upper Cargo Scored": {
