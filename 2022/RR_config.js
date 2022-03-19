@@ -61,7 +61,7 @@ var config_data = `
         "code":"as",
         "title": "Auto Start Position",
         "type":"field_image",
-        "filename":"2022/Tarmacs.png"
+        "filename":"2022/Tarmacs.png",
         "required":"false"
       },
       
