@@ -74,10 +74,10 @@ var config_data = `
           "c": "Position C<br>",
           "d": "Position D<br>",
           "e": "Position E<br>",
-          "f": "Position F"
+          "f": "Position F<br>",
+          "g": "Position G"
         },
-        "required":"true" 
-
+        "defaultValue":"g"
       }
     },
     "auton": {
