@@ -62,6 +62,7 @@ var config_data = `
         "title": "Auto Start Position",
         "type":"field_image",
         "filename":"2022/Tarmacs.png"
+        "required":"false"
       },
       
       "Auto Start Choices":{
