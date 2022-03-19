@@ -58,10 +58,9 @@ var config_data = `
         "max":99999
       },
       "Auto Start Position": {
-        "code":"as",
-        "title": "Auto Start Position",
-        "type":"field_image",
-        "filename":"2022/New_field.png"
+      
+      
+      
       }
     },
     "auton": {
