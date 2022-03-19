@@ -70,7 +70,7 @@ var config_data = `
           "e": "Position E",
           "f": "Position F",
         },
-        "filename":"Tarmacs.png",
+        //"filename":"Tarmacs.png",
         "defaultValue":"no"
       
       }
