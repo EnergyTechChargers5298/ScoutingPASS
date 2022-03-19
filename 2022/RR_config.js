@@ -62,6 +62,22 @@ var config_data = `
         "title": "Auto Start Position",
         "type":"field_image",
         "filename":"2022/New_field.png"
+      },
+      
+      "Auto Start Choices":{
+        "code" : "asc",
+        "title": "Autonomous Start Position Choices",
+        "type": "radio",
+        "choices":{
+          "a": "Position A<br>",
+          "b": "Position B<br>",
+          "c": "Position C<br>",
+          "d": "Position D<br>",
+          "e": "Position E<br>",
+          "f": "Position F<br>e",
+          "g": "Position G"
+        },
+        "defaultValue":"g"
       }
     },
     "auton": {
