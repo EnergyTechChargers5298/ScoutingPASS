@@ -56,6 +56,12 @@ var config_data = `
         "type":"team",
         "min":1,
         "max":99999
+      },
+      "Auto Start Position": {
+        "code":"as",
+        "title": "Auto Start Position",
+        "type":"field_image",
+        "filename":"2022/New_field.png"
       }
     },
     "auton": {
@@ -100,25 +106,6 @@ var config_data = `
         },
         "defaultValue":"no"
         }
-      /*
-        "Auto Start Position": {
-        "code":"as",
-        "title": "Autonomous Start Position",
-        "type": "radio",
-        "choices":{
-          "a": "Position A",
-          "b": "Position B",
-          "c": "Position C",
-          "d": "Position D",
-          "e": "Position E",
-          "f": "Position F"
-        },
-        "required":"true"
-        //"filename":"Tarmacs.png",
-        //"defaultValue":"g"
-      
-      }
-      */
     },
     "teleop": {
       "Upper Cargo Scored": {
