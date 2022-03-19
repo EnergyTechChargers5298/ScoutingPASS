@@ -75,7 +75,7 @@ var config_data = `
           "d": "Position D<br>",
           "e": "Position E<br>",
           "f": "Position F"
-        },
+        }
       }
     },
     "auton": {
