@@ -62,19 +62,6 @@ var config_data =
         "title": "Autonomous Start Position",
         "type":"field image",
         "filename":"2022/New_field.png"
-        
-        //"type": "radio",
-        //"choices":{
-        //   "a": "Position A",
-        //   "b": "Position B",
-        //   "c": "Position C",
-        //   "d": "Position D",
-        //   "e": "Position E",
-        //   "f": "Position F",
-        //   "g": "Position G"
-        // },
-        // //this is a comment
-        // "defaultValue":"g"
       }
     },
     "auton": {
