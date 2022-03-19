@@ -71,7 +71,7 @@ var config_data = `
           "f": "Position F",
         },
         //"filename":"Tarmacs.png",
-        "defaultValue":"no"
+        //"defaultValue":"no"
       
       }
     },
