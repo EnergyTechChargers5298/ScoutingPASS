@@ -1,7 +1,7 @@
 var config_data =` 
 {
   "title":"ETech's Scouting PASS 2022",
-  "page_title":"ETech's Rapid React Scouting App",
+  "page_title":"ETech's Rapid React Scouting App 52",
   "elements":{
     "prematch": {
       "Scouter Initials": {
