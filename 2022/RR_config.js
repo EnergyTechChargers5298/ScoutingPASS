@@ -1,7 +1,7 @@
 var config_data =` 
 {
   "title":"ETech's Scouting PASS 2022",
-  "page_title":"Rapid React",
+  "page_title":"ETech's Rapid React Scouting App",
   "elements":{
     "prematch": {
       "Scouter Initials": {
@@ -190,20 +190,20 @@ var config_data =`
         "title": "Climb Type (if Attempted)",
         "type":"radio",
         "choices":{
-          "1":"4 - Low<br>",
-          "2":"6 - Mid<br>",
-          "3":"10 - High<br>",
-          "4":"15 - Traversal"
+          "1":"4 - Low Rung<br>",
+          "2":"6 - Mid Rung<br>",
+          "3":"10 - High Rung<br>",
+          "4":"15 - Traversal Rung"
         }
       },
-      "Time to climb": {
+      "With how many seconds left, did they start attempting to climb?": {
         "code":"be",
-        "title": "With how many seconds left, did they start attempting to climb?",
+        "title": "Time to Climb",
         "type":"number"
       },
-      "Num of Robots Climbed": {
+      "Number of Alliance Robots that Successfully Climbed": {
         "code":"cn",
-        "title": "# of alliance bots climbed",
+        "title": "Alliance Climb Num",
         "type":"counter"
       }
     },
