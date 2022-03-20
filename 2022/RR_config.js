@@ -1,7 +1,7 @@
 var config_data =` 
 {
   "title":"ETech's Scouting PASS 2022",
-  "page_title":"ETech's Rapid React Scouting App 52",
+  "page_title":"ETech's Rapid React Scouting App",
   "elements":{
     "prematch": {
       "Scouter Initials": {
@@ -196,12 +196,12 @@ var config_data =`
           "4":"15 - Traversal Rung"
         }
       },
-      "With how many seconds left, did they start attempting to climb?": {
+      "Seconds allocated for climb": {
         "code":"be",
         "title": "Time to Climb",
         "type":"number"
       },
-      "Number of Alliance Robots that Successfully Climbed": {
+      "Total Alliance climbs": {
         "code":"cn",
         "title": "Alliance Climb Num",
         "type":"counter"
