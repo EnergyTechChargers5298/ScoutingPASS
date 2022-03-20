@@ -14,7 +14,7 @@ var config_data =`
       "Event":{
         "code":"e",
         "type":"event",
-        "defaultValue":"2020ilch",
+        "defaultValue":"NYLI1",
         "required":"true"
       },
       "Match Level":{
