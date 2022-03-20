@@ -14,7 +14,7 @@ var config_data =`
       "Event":{
         "code":"e",
         "type":"event",
-        "defaultValue":"NYLI1",
+        "defaultValue":"NYLI",
         "required":"true"
       },
       "Match Level":{
