@@ -1,4 +1,4 @@
-var config_data = `
+var config_data =` 
 {
   "title":"Scouting PASS 2022",
   "page_title":"Rapid React",
@@ -21,11 +21,11 @@ var config_data = `
         "code":"l",
         "type":"level",
         "choices":{
+          "p":"Practice Match<br>",
           "qm":"Quals<br>",
-          "ef":"Eighth-Final<br>",
-          "qf":"Quarter-Final<br>",
-          "sf":"Semi-Final<br>",
-          "f":"Final"
+          "qf":"Playoff Quarter-Final<br>",
+          "sf":"Playoff Semi-Final<br>",
+          "f":"Playoff Final"
         },
         "defaultValue":"qm",
         "required":"true"
@@ -110,12 +110,13 @@ var config_data = `
       },
       "Human Player Shot": {
         "code":"hs",
-        "title": "Did Human Player shoot ball?",
+        "title": "What did the Human Player do with the Cargo?",
         "type":"radio",
         "choices":{
-          "yy":"Yes, shot made<br>",
-          "yn":"Yes, shot missed<br>",
-          "no":"Human player gave up ball"
+          "yy":"Made shot!<br>",
+          "yn":"Missed a shot<br>",
+          "rl":"Rolled the Cargo to a robot<br>",
+          "no":"Did not do anything with Cargo in Auto"
         },
         "defaultValue":"no"
       }
@@ -163,30 +164,38 @@ var config_data = `
         "title": "Shooting Spot",
         "type":"radio",
         "choices":{
-          "S":"Short",
-          "M":"Middle",
-          "L":"Long"
+          "S":"Short - On Fender<br>",
+          "M":"Middle - Inside Tarmac<br>",
+          "L":"Long - Oustide Tarmac"
         }
       }
     },
     "endgame": {
-      "Climb": {
-        "code":"c",
-        "title": "Climb",
+      "Climb Attempt?": {
+        "code":"ca",
+        "title": "Attempted to Climb?",
         "type":"radio",
         "choices":{
-          "1":"Low<br>",
-          "2":"Mid<br>",
-          "3":"High<br>",
-          "4":"Traversal<br>",
-          "f":"Attempted but Failed<br>",
-          "x":"Not Attempted"
+          "cs":"Successful climb<br>",
+          "cf":"Failed climb<br>",
+          "x":"Did not attempt to climb"
         },
         "defaultValue":"x"
       },
+      "Climb Type": {
+        "code":"c",
+        "title": "Climb Type (if Attempted)",
+        "type":"radio",
+        "choices":{
+          "1":"4 - Low<br>",
+          "2":"6 - Mid<br>",
+          "3":"10 - High<br>",
+          "4":"15 - Traversal"
+        }
+      },
       "Time to climb": {
         "code":"be",
-        "title": "How long did it take to climb",
+        "title": "With how many seconds left, did they start attempting to climb?",
         "type":"number"
       },
       "Num of Robots Climbed": {
