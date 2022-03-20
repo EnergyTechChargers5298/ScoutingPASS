@@ -14,7 +14,7 @@ var config_data =`
       "Event":{
         "code":"e",
         "type":"event",
-        "defaultValue":"NYLI",
+        "defaultValue":"NYSU",
         "required":"true"
       },
       "Match Level":{
