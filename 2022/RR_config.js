@@ -74,8 +74,10 @@ var config_data =`
           "c": "Position C<br>",
           "d": "Position D<br>",
           "e": "Position E<br>",
-          "f": "Position F"
-        }
+          "f": "Position F<br>",
+          "x": "Robot did not come to match"
+        },
+        "defaultValue":"x"
       }
     },
     "auton": {
