@@ -14,7 +14,7 @@ var config_data =`
       "Event":{
         "code":"e",
         "type":"event",
-        "defaultValue":"NYSU",
+        "defaultValue":"2019NYSU",
         "required":"true"
       },
       "Match Level":{
