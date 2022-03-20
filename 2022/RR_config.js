@@ -60,7 +60,8 @@ var config_data =`
         "code":"as",
         "title": "Auto Start Position",
         "type":"field_image",
-        "filename":"2022/Tarmacs.png"
+        "filename":"2022/Tarmacs.png",
+        "required":"false"
       },
       
       "Auto Start Choices":{
@@ -76,8 +77,7 @@ var config_data =`
           "f": "Position F<br>",
           "x": "Robot did not come to match"
         },
-        "defaultValue":"x",
-        "required":"true"
+        "defaultValue":"x"
       }
     },
     "auton": {
