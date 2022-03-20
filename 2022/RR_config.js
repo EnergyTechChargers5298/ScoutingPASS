@@ -14,7 +14,7 @@ var config_data =`
       "Event":{
         "code":"e",
         "type":"event",
-        "defaultValue":"2020lich",
+        "defaultValue":"2020ilch",
         "required":"true"
       },
       "Match Level":{
