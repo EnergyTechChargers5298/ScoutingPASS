@@ -431,7 +431,8 @@ function getLevel() {
 }
 
 function validateLevel() {
-    if (document.getElementById("input_l_qm").checked ||
+    if (document.getElementById("input_l_p").checked ||
+        document.getElementById("input_l_qm").checked ||
         document.getElementById("input_l_ef").checked ||
         document.getElementById("input_l_qf").checked ||
         document.getElementById("input_l_sf").checked ||
