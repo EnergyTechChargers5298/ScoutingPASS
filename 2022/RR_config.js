@@ -56,7 +56,14 @@ var config_data = `
         "min":1,
         "max":99999
       },
-      "Auto Start Phoices":{
+      "Auto Start Position":{
+        "code":"asc",
+        "title": "Auto Start Choices",
+        "type":"field_image",
+        "filename":"2022/Tarmacs.png"
+        "required":"false"
+      },
+      "Auto Start Position":{
         "code" : "as",
         "title": "Autonomous Start Position Choices",
         "type": "radio",
