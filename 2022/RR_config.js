@@ -60,7 +60,7 @@ var config_data = `
       "code" : "asc",
       "title" : "Autonomous Start Map",
       "type": "field_image",
-      "filename":"2022/Tarmacs.png"
+      "filename":"2022/Tarmacs.png",
       "required" : "false"
       },
       "Auto Start Position":{
