@@ -415,7 +415,9 @@ function resetRobot() {
 
 
 function getLevel() {
-    if (document.getElementById("input_l_qm").checked) {
+    if (document.getElementById("input_l_p").checked) {
+        return "p";
+    } else if (document.getElementById("input_l_qf").checked) {
         return "qm";
     } else if (document.getElementById("input_l_qf").checked) {
         return "qf";
@@ -435,8 +437,10 @@ function validateLevel() {
         document.getElementById("input_l_sf").checked ||
         document.getElementById("input_l_f").checked
     ) {
-        return true
-    } else {
+        https: //github.com/EnergyTechChargers5298/ScoutingPASS.git
+            return true
+    }
+    else {
         return false
     }
 }
