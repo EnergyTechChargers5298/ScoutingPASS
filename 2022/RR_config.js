@@ -56,6 +56,13 @@ var config_data = `
         "min":1,
         "max":99999
       },
+      "Auto Start map":{
+      "code" : "asc",
+      "title" : "Autonomous Start Map",
+      "type": "field_image",
+      "filename":"2022/field_image.png"
+      "required" : "false"
+      },
       "Auto Start Position":{
         "code" : "as",
         "title": "Autonomous Start Position Choices",
@@ -71,7 +78,7 @@ var config_data = `
         },
         "defaultValue":"x"
       }
-    }
+    },
     "auton": {
       "Taxi": {
         "code":"at",
