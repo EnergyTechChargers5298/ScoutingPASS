@@ -192,8 +192,10 @@ var config_data = `
           "1":"4 - Low Rung<br>",
           "2":"6 - Mid Rung<br>",
           "3":"10 - High Rung<br>",
-          "4":"15 - Traversal Rung"
-        }
+          "4":"15 - Traversal Rung",
+          "0":"Did not attempt a climb"
+        },
+        "defaultValue":"0"
       },
       "Seconds allocated for climb": {
         "code":"be",
