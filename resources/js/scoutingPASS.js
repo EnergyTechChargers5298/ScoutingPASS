@@ -417,8 +417,6 @@ function resetRobot() {
 function getLevel() {
     if (document.getElementById("input_l_qm").checked) {
         return "qm";
-    } else if (document.getElementById("input_l_ef").checked) {
-        return "ef";
     } else if (document.getElementById("input_l_qf").checked) {
         return "qf";
     } else if (document.getElementById("input_l_sf").checked) {
@@ -433,7 +431,6 @@ function getLevel() {
 function validateLevel() {
     if (document.getElementById("input_l_p").checked ||
         document.getElementById("input_l_qm").checked ||
-        document.getElementById("input_l_ef").checked ||
         document.getElementById("input_l_qf").checked ||
         document.getElementById("input_l_sf").checked ||
         document.getElementById("input_l_f").checked
