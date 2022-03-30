@@ -56,12 +56,7 @@ var config_data = `
         "min":1,
         "max":99999
       },
-      "Auto Start Position Map":{
-        "code":"asm",
-        "title": "Auto Start Choices",
-        "type":"field_image",
-        "filename":"2022/Tarmacs.png"
-        "required":"false"
+
       },
       "Auto Start Position":{
         "code" : "as",
@@ -77,8 +72,14 @@ var config_data = `
           "x": "Robot did not come to match"
         },
         "defaultValue":"x"
-      }
-    },
+      },
+      "Auto Start Position Map":{
+        "code":"asm",
+        "title": "Auto Start Choices",
+        "type":"field_image",
+        "filename":"2022/Tarmacs.png"
+        "required":"false"
+    }
     "auton": {
       "Taxi": {
         "code":"at",
