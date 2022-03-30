@@ -1,4 +1,4 @@
-var config_data =` 
+var config_data = ` 
 {
   "title":"ETech's Scouting PASS 2022",
   "page_title":"ETech's Rapid React Scouting App",
@@ -56,16 +56,8 @@ var config_data =`
         "min":1,
         "max":99999
       },
-      "Auto Start Position": {
-        "code":"as",
-        "title": "Auto Start Position",
-        "type":"field_image",
-        "filename":"2022/Tarmacs.png",
-        "required":"false"
-      },
-      
-      "Auto Start Choices":{
-        "code" : "asc",
+      "Auto Start Phoices":{
+        "code" : "as",
         "title": "Autonomous Start Position Choices",
         "type": "radio",
         "choices":{
