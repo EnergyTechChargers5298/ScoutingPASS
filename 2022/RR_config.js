@@ -168,8 +168,10 @@ var config_data = `
         "choices":{
           "S":"Short - On Fender<br>",
           "M":"Middle - Inside Tarmac<br>",
-          "L":"Long - Oustide Tarmac"
-        }
+          "L":"Long - Oustide Tarmac<br>",
+          "x":"did not attempt to shoot"
+        },
+        "defaultValue":"x"
       }
     },
     "endgame": {
@@ -192,7 +194,7 @@ var config_data = `
           "1":"4 - Low Rung<br>",
           "2":"6 - Mid Rung<br>",
           "3":"10 - High Rung<br>",
-          "4":"15 - Traversal Rung",
+          "4":"15 - Traversal Rung<br>",
           "0":"Did not attempt a climb"
         },
         "defaultValue":"0"
