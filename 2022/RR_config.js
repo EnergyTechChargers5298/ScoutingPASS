@@ -78,7 +78,6 @@ var config_data = `
         "title": "Auto Start Choices",
         "type":"field_image",
         "filename":"2022/Tarmacs.png"
-        "required":"false"
     }
     "auton": {
       "Taxi": {
